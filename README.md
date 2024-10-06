@@ -54,9 +54,11 @@ int(), float(), str(), bool().
 
 
     -->   append() : add element in the end of the list
-    -->   insert() : insert an element at a specific index
+    -->   insert() : insert an element at a specific index   ==> _data.insert(position, element)
     -->   remove() : Removes the first occurrence of an element
-    -->   pop() : Removes and returns an element at a specific index
+    -->   pop() : Removes and returns an element at a specific index ==> example _data.pop(2)
+    -->   sort(): Sorts the list in ascending order
+    -->   le() : returns lenght
 
 
 
