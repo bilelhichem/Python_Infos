@@ -46,6 +46,26 @@ int(), float(), str(), bool().
     Not operator : a = true => not a => a = false
 
 
+# Lists and Tuples :
+
+  _data = ['algeria', 9 , true]
+
+  List Methods : 
+
+
+    -->   append() : add element in the end of the list
+    -->   insert() : insert an element at a specific index
+    -->   remove() : Removes the first occurrence of an element
+    -->   pop() : Removes and returns an element at a specific index
+
+
+
+
+
+
+
+
+
 
 
 
