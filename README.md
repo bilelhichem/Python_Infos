@@ -32,6 +32,18 @@ int(), float(), str(), bool().
         __data = bool(_data) ==> <class 'bool'>
         print(type(__data))
 
+# Basic Arithmetic Operators in Python: 
+
+    Addition (+): Adds two values.
+    Subtraction (-): Subtracts the second value from the first.
+    Multiplication (*): Multiplies two values.
+    Division (/): Divides the first value by the second, resulting in a float.
+    Floor Division (//): Divides and returns the largest integer less than or equal to the result.
+    Modulus (%): Returns the remainder when dividing the first value by the second.
+    Exponentiation (**): Raises the first value to the power of the second.
+    And operator : x and y
+    Or operator  : x or y
+    Not operator : a = true => not a => a = false
 
 
 
