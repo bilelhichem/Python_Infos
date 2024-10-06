@@ -58,7 +58,7 @@ int(), float(), str(), bool().
     -->   remove() : Removes the first occurrence of an element
     -->   pop() : Removes and returns an element at a specific index ==> example _data.pop(2)
     -->   sort(): Sorts the list in ascending order
-    -->   le() : returns lenght
+    -->   len() : returns  lenght ==> len(_data)
 
 
 
