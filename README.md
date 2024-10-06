@@ -2,7 +2,7 @@
 
 
 <h1 style="background-color: yellow; padding: 10px; text-align: center; font-size: 24px; font-family: Arial, sans-serif;">
-    Méthodes de Liste
+   Introduction to Python
 </h1>
 
 
