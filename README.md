@@ -67,8 +67,18 @@ int(), float(), str(), bool().
 
        _data = {1,2}
 
-   --> add : _data.add(3)  == > _data = {1,2,3}
-   --> update : _data.update({1,5})   
+    le meme fonction que les listes
+
+   --> update : _data.update({1,5}) ==> pour ajouter plusieurs éléments à un set
+
+# Dictionary :
+
+    car = { "key " : "element"}
+
+       car.get(key)
+       
+
+   
          
 
    
