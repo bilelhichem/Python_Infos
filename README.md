@@ -61,6 +61,18 @@ int(), float(), str(), bool().
     -->   len() : returns  lenght ==> len(_data)
 
 
+# Sets :
+       Les éléments d'un set sont non ordonnés
+       Un set ne peut pas contenir d'éléments dupliqués
+
+       _data = {1,2}
+
+   --> add : _data.add(3)  == > _data = {1,2,3}
+   --> update : _data.update({1,5})   
+         
+
+   
+
 
 
 
