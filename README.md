@@ -86,6 +86,28 @@ int(), float(), str(), bool().
             exemple : b = ["ESI","EVRY","Lile"]    ==> prine(choice(b)) ==> Lile
                       randint(1,10) ==> 3
 
+
+# Filter Function :  filter (function , iterable )
+    exemple :   def myFunc(x):
+                  if x < 18:
+                      return False
+                         else:
+                      return True
+
+      adults = filter(myFunc, ages)
+
+
+
+
+
+
+    
+  
+
+
+
+
+
       
 
        
