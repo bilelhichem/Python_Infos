@@ -96,6 +96,32 @@ int(), float(), str(), bool().
 
       adults = filter(myFunc, ages)
 
+# Map Function in python : map(function, iterable)
+
+
+# Lambda Function : Une fonction lambda en Python est une petite fonction anonyme (sans nom) qui est définie en une seule ligne.
+                    Les fonctions lambda sont souvent utilisées lorsqu'on a besoin d'une fonction simple et temporaire
+
+    la creation : lambda arguments : expression
+
+    exemple : square = lambda x: x ** 2
+              print(square(5))  # Sortie : 25
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
 
 
 
