@@ -76,6 +76,18 @@ int(), float(), str(), bool().
     car = { "key " : "element"}
 
        car.get(key)
+
+# Python Modules
+
+     import the math module : import math
+
+     import the Random and choice Function :  from random import randint , choice ;
+
+            exemple : b = ["ESI","EVRY","Lile"]    ==> prine(choice(b)) ==> Lile
+                      randint(1,10) ==> 3
+
+      
+
        
 
    
