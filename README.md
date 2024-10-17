@@ -128,7 +128,17 @@ int(), float(), str(), bool().
             print (my_string. count ("o")) //  Lets check the occurence of "o"
 
 
+# For Loop
 
+        ex :
+            a=['Delhi', 'Mumbai', 'Kolkata', 'Bangalore', 'Chennai']
+               for city in a:
+                     print(city)
+
+# While Loop
+
+      while i<=5：
+             print(i)
 
 
 
