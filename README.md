@@ -105,8 +105,27 @@ int(), float(), str(), bool().
     la creation : lambda arguments : expression
 
     exemple : square = lambda x: x ** 2
-              print(square(5))  # Sortie : 25
+              print(square(5))  # Sortie : 25 
 
+# String in Python
+
+   text = "hello word"
+         * Convert the string to uppercase
+            print(text.upper())
+         * Convert the string to Lowercase
+            print(text. lower ())
+         * Replace a substring
+            print(text.replace("Hello", "Hi"))
+         * Lets take a string with extra spaces
+            my_string = " Hello, World!
+            print(my_string. strip())  //   Lets use the strip function to remove the extra spaces
+         * Lets explore the startswith and endswith functions
+            my_string = "Hello, World!"|
+            print(my_string. startswith("Hello")) //  Lets check the output for the startswith function
+            print(my_string. endswith("World!")) //    Lets check the output for the endswith function
+         * Lets explore the count function
+            my _string = "Hello, World!"
+            print (my_string. count ("o")) //  Lets check the occurence of "o"
 
 
 
