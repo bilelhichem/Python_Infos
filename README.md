@@ -168,6 +168,7 @@ int(), float(), str(), bool().
 
 # Introduction to OOPs Concept :
 
+<img width="378" alt="Screenshot 2024-10-19 at 10 19 59 PM" src="https://github.com/user-attachments/assets/c1fb527b-c053-4758-9074-8b2e68cd8df0">
 
 
 
