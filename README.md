@@ -189,6 +189,27 @@ p1 = Person("Nikhil", 36)
          # Additional attributes and methods specific to derived class
 
 
+    exemple  ;
+class Animal : 
+     def __init__(self,name,age):
+          self.name = name ;
+          self.age = age  
+     def display (self) :
+      print(self.name , self.age);
+
+class Dog (Animal):
+     def __init__(self, name, age):
+          super().__init__(name, age)  
+
+p1 = Dog("Ol" , 12);
+
+p1.display();
+
+
+
+          
+
+
 
 
 
