@@ -146,7 +146,27 @@ int(), float(), str(), bool().
       while i<=5：
              print(i)
 
+# Ternary operation :
 
+    condition = True
+    res = "la condition est vraie" if condition else "la condition est fausse"
+
+# Exception :
+    arg = input()
+
+          arg = input()
+          try:
+             char = arg[12]
+          except IndexError: # Capture une exception d'indice
+             print("Une exception d'indice a été levée")
+          except: # Capture toute exception n'ayant pas déjà été testée
+             print("Une exception a été levée")
+          else: # Si aucune exception n'est levée, ce bloc est exécuté
+              print("Aucune exception d'indice n'a été levée")
+          finally: # Exécute ce code quoi qu'il arrive
+               pass
+
+# Introduction to OOPs Concept :
 
 
 
