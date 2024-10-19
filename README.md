@@ -59,6 +59,12 @@ int(), float(), str(), bool().
     -->   pop() : Removes and returns an element at a specific index ==> example _data.pop(2)
     -->   sort(): Sorts the list in ascending order
     -->   len() : returns  lenght ==> len(_data)
+    --> reversed(list_var)
+    --> sorted(list_var)
+    --> enumerate(list_var) : list_var = ["apple", 12, 42, "banana"]
+                                for index, value in enumerate(list_var):
+                                      print(index,value)
+   --> zip(list 1 , list 2 ) : permet de combiner deux list 
 
 
 # Sets :
@@ -139,6 +145,8 @@ int(), float(), str(), bool().
 
       while i<=5：
              print(i)
+
+
 
 
 
