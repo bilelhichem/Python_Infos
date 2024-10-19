@@ -167,8 +167,17 @@ int(), float(), str(), bool().
                pass
 
 # Introduction to OOPs Concept :
+  class Person:
+    def __init__(self, name, age):
+        # Initialize the 'name' attribute of the Person object
+        self.name = name
+        # Initialize the 'age' attribute of the Person object
+        self.age = age
 
-<img width="378" alt="Screenshot 2024-10-19 at 10 19 59 PM" src="https://github.com/user-attachments/assets/c1fb527b-c053-4758-9074-8b2e68cd8df0">
+# Créer une instance de la classe Person
+p1 = Person("Nikhil", 36)
+
+// __init__ C'est le constructeur qui s'exécute lors de la création d'une instance de Person
 
 
 
