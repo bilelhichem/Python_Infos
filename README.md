@@ -180,6 +180,15 @@ p1 = Person("Nikhil", 36)
 // __init__ C'est le constructeur qui s'exécute lors de la création d'une instance de Person
 
 
+# Inheritance :
+
+   Syntax:
+     class BaseClass:
+         # Attributes and methods of the base class
+     class DerivedClass (BaseClass):
+         # Additional attributes and methods specific to derived class
+
+
 
 
 
