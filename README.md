@@ -207,6 +207,23 @@ p1.display();
 
 
 
+# Encapsulation :
+
+     Attribute Protection Levels 
+
+       def __init__(self, name, age):
+        self.name = name  # attribut public
+      def __init__(self, name, age):
+        self._name = name  # attribut protégé cet attribut est protégé et qu'il ne devrait pas être modifié directement en dehors de la classe ou de ses sous-classes (c'est une           convention, pas une règle stricte).
+     def __init__(self, name, age):
+        self.__name = name  # attribut privé
+
+
+
+
+
+
+
           
 
 
