@@ -299,7 +299,18 @@ MyParser()
 
 # Module MyPy :
 
-    MyPy est un vérificateur de type statique en Python
+  MyPy est un outil qui aide à vérifier si tu utilises correctement les types dans ton code Python. 
+
+  Comment installer MyPy  : python3 -m pip install -U mypy
+
+
+```
+# 📈 Python for Data Science 
+
+<h1 style="background-color: yellow; padding: 10px; text-align: center; font-size: 24px; font-family: Arial, sans-serif;">
+   Introduction to Python for Data Science
+</h1>
+   
     
 
 
