@@ -236,6 +236,35 @@ p1.display();
 
  // Dans les classes héritées à partir d'une classe abstraite, il est obligatoire d'implémenter les mêmes méthodes définies dans la classe abstraite. Par ailleurs, on ne peut pas créer d'instance directement à partir d'une classe abstraite, mais on peut en créer à partir des classes qui en héritent.
 
+# Interface in Python : 
+   from abc import ABCMeta, abstractmethod
+
+class FormalParserInterface(metaclass=ABCMeta):
+    
+    @abstractmethod
+    def load_data(self, file_path):
+        raise NotImplementedError
+
+    @abstractmethod
+    def extract_text(self, file_path):
+        raise NotImplementedError
+
+class MyParser(FormalParserInterface):
+
+    def load_data(self, file_path):
+        pass
+
+    def extract_text(self, file_path):
+        pass
+
+# Création d'une instance de MyParser
+MyParser()
+
+
+
+
+
+
 
 
           
