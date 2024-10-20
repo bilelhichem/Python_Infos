@@ -262,6 +262,27 @@ MyParser()
 
 
 
+# méthode magique  :
+
+   --> Une méthode magique en Python est une méthode spéciale qui commence et se termine par deux underscores (__)
+
+   --> Ces méthodes sont appelées magiques parce que Python les exécute automatiquement dans certaines situations, sans que tu aies à les appeler directement
+
+   --> exemple :
+
+    def __init__(self) est une méthode magique très courante est appelée automatiquement quand tu crées un nouvel objet de la classe
+    p = Person("Alice")
+
+  --> isinstance() est une fonction intégrée en Python qui vérifie si un objet appartient à une classe spécifique ou à une sous-classe. Elle renvoie True si l'objet est une instance de cette classe, sinon elle renvoie False.
+   exemple :
+
+   if isinstance(other, MyFloat) : Dans ce cas, isinstance(other, MyFloat) vérifie si l'objet other (l'objet avec lequel tu compares self) est une instance de la classe MyFloat.
+
+
+
+
+
+
 
 
 
