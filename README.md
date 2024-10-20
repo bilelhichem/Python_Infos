@@ -281,9 +281,26 @@ MyParser()
 
 
 
+# Getters et Setters en Python :
 
+   Les getters et setters sont des méthodes utilisées pour accéder et modifier les attributs d'une classe
 
+   class Person:
+      def __init__(self, nom: str) -> None:
+          self.__nom: str = nom
 
+      def get_name(self) -> str:
+          return self.__nom
+
+     def set_name(self, name: str) -> None:
+         self.__nom: str = name
+  
+ 
+
+# Module MyPy :
+
+    MyPy est un vérificateur de type statique en Python
+    
 
 
 
