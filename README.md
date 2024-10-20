@@ -220,7 +220,21 @@ p1.display();
 
 
 
+# Classe abstraite :
+   from abc import ABCMETA , abstractmethod ; // pour définir des classes abstraites
 
+   
+   
+   class Programming(metaclass=ABCMeta) :
+          @abstractmethod  
+          def has_oop (self) :  // Dans les classes abstraites, les méthodes n'ont pas de valeur de retour.
+               pass
+
+   class Pascal(Programming):  
+       def has_oop(self):
+          return "No"
+
+ // Dans les classes héritées à partir d'une classe abstraite, il est obligatoire d'implémenter les mêmes méthodes définies dans la classe abstraite. Par ailleurs, on ne peut pas créer d'instance directement à partir d'une classe abstraite, mais on peut en créer à partir des classes qui en héritent.
 
 
 
