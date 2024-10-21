@@ -339,6 +339,17 @@ MyParser()
                 assert addition(0, 0) == 0
                 assert addition(-1, 1) == 0
 
+
+
+
+   3. Les mocks et patchs
+   
+      Mocks : Simulent des objets réels pendant un test, permettant de tester ton code sans exécuter les véritables objets ou appels externes.
+      Patches : Remplacent temporairement des fonctions ou méthodes pour éviter d'exécuter du code réel ou complexe pendant les tests.
+      
+
+  
+
    
 
 
