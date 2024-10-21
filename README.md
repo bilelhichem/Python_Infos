@@ -363,7 +363,20 @@ MyParser()
 </h1>
    
     
+```python
 
+ # Introduction à Pandas :
+
+   Pandas est une bibliothèque Python utilisée principalement pour la manipulation et l'analyse des données. Elle permet de travailler efficacement avec des structures de données    appelées DataFrames et Series. Ces structures sont similaires aux tableaux et matrices
+
+   installer pandas dans Python : pip install Pandas
+   import : import pandas as pd ;
+
+   * df =  pd.read_cvs("");  // pour lire les fichier cvs
+   * df.head() affichier seulment 5 premier ligne de cvs  mais  df.head(n)  Ce code va afficher les n premières lignes du DataFrame
+   * df.columns affichier les columns de cvs
+   * df.select_dtypes("type") // On peut préciser quel type de données on peut choisir.
+ 
 
 
 
