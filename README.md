@@ -304,6 +304,46 @@ MyParser()
   Comment installer MyPy  : python3 -m pip install -U mypy
 
 
+
+# Introduction aux tests en programmation :
+
+     1. Tests unitaires avec unittest : 
+     unittest est un framework de test intégré dans Python. Il permet de tester de petites unités du code (comme des fonctions ou des méthodes). Le principe est simple : tu écris      des tests pour vérifier que chaque fonction se comporte correctement dans différentes situations.
+
+      import unittest
+      * Fonction simple à tester
+          def addition(a, b):
+                return a + b
+  
+      * Classe de tests
+          class TestAddition(unittest.TestCase):
+                   def test_addition(self):
+                         self.assertEqual(addition(1, 2), 3)  # Vérifie si 1 + 2 = 3
+                           self.assertEqual(addition(0, 0), 0)  # Vérifie si 0 + 0 = 0
+                             self.assertEqual(addition(-1, 1), 0) # Vérifie si -1 + 1 = 0
+
+     * Exécuter les tests
+          if __name__ == "__main__":
+               unittest.main()
+
+    2. Tests avec pytest
+    pytest est un autre framework de test Python qui est plus flexible et convivial que unittest. Il est souvent préféré pour des projets plus complexes grâce à ses
+    fonctionnalités avancées.
+
+         def addition(a, b):
+             return a + b
+
+       * Tests avec pytest
+            def test_addition():
+                assert addition(1, 2) == 3
+                assert addition(0, 0) == 0
+                assert addition(-1, 1) == 0
+
+   
+
+
+
+
 ```
 # 📈 Python for Data Science 
 
