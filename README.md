@@ -376,7 +376,8 @@ MyParser()
    * df.head() affichier seulment 5 premier ligne de cvs  mais  df.head(n)  Ce code va afficher les n premières lignes du DataFrame
    * df.columns affichier les columns de cvs
    * df.select_dtypes("type") // On peut préciser quel type de données on peut choisir.
-
+   * salary_variance = df['MonthlyIncome'].var() // var() : Cette fonction calcule la variance d'une série de données
+   * salary_std_dev = df['MonthlyIncome'].std() // std() : Cette fonction calcule l'écart-type
 
 
  #  Données catégorielles  :
@@ -417,7 +418,44 @@ MyParser()
 
           moyenne = df["SALARY"].mean();
           mediane = df["SALARY"].median();
-          mode = df["SALARY"].mode(); 
+          mode = df["SALARY"].mode();
+
+
+
+ # Les mesures de forme et de position: 
+
+   Les mesures de forme et de position sont des outils statistiques qui aident à décrire la distribution des données et à comprendre leur répartition. Voici une explication          simple avec des exemples pour chaque point
+
+      * Asymétrie (Skewness) :
+            Cela vous dit si les données sont plus étirées d'un côté que de l'autre. Si c'est étiré vers la gauche, c'est asymétrique à gauche. Si c'est étiré vers la droite,                 c'est asymétrique à droite. Si c'est équilibré, c'est symétrique.
+      * Aplatissement (Kurtosis) :
+            Cela vous montre si les données ont plus ou moins d'extrêmes (valeurs très grandes ou très petites). Un aplatissement élevé signifie plus d'extrêmes, un aplatissement             faible signifie moins d'extrêmes.
+      * Percentiles et quartiles sont des outils de position qui vous aident à voir où se situe une donnée par rapport au reste du groupe.
+
+
+  # La bibliothèque scipy.stats :
+
+      scipy.stats propose des fonctions qui aident à :
+
+      Calculer des statistiques comme la moyenne, la médiane, l'écart-type, etc.
+      Travailler avec des distributions de probabilité (normales, binomiales, Poisson, etc.).
+      Tester des hypothèses (par exemple, le test T, le test de chi-carré).
+      Générer des données aléatoires suivant différentes distributions.
+      Calculer des mesures de corrélation ou d'association entre variables (par exemple, la corrélation de Pearson, Spearman).
+
+      instalation : pip install scipy      
+      import : import scipy.stats as stats ;
+
+      *) SciPy Stats module is used to calculate the skewness and kurtosis of a variable called monthly
+         --> Calculate skewness and kurtosis
+             salary_skewness = stats.skew(df[ 'MonthlyIncome']) // stats.skew()
+             salary_kurtosis = stats.kurtosis(df[ 'MonthlyIncome']) // stats.kurtosis()
+
+
+
+
+
+
 ​	
        
 
