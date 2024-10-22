@@ -448,8 +448,18 @@ MyParser()
 
       *) SciPy Stats module is used to calculate the skewness and kurtosis of a variable called monthly
          --> Calculate skewness and kurtosis
-             salary_skewness = stats.skew(df[ 'MonthlyIncome']) // stats.skew()
+             salary_skewness = stats.skew(df[ 'MonthlyIncome']) // stats.skew() v>0 postive , 0<v negative , v = 0 eqiu
              salary_kurtosis = stats.kurtosis(df[ 'MonthlyIncome']) // stats.kurtosis()
+
+
+ # NumPy (Numerical Python) :
+   est une bibliothèque open source qui permet de travailler efficacement avec des tableaux et des matrices de grandes dimensions
+
+   instalation : pip install numpy
+   import : import numpy as np ;
+
+
+  
 
 
 
