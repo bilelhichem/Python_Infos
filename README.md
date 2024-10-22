@@ -376,11 +376,50 @@ MyParser()
    * df.head() affichier seulment 5 premier ligne de cvs  mais  df.head(n)  Ce code va afficher les n premières lignes du DataFrame
    * df.columns affichier les columns de cvs
    * df.select_dtypes("type") // On peut préciser quel type de données on peut choisir.
+
+
+
+ #  Données catégorielles  :
+
+   Les données catégorielles représentent des valeurs discrètes qui appartiennent à des catégories spécifiques. Elles ne sont pas numériques
+
+   Il existe deux sous-types :
+
+   1) Données nominales : Elles représentent des catégories qui n'ont pas d'ordre ou de classement particulier. ● Exemples : Le genre, la couleur, la profession, l'état civil,
+
+   2)Données ordinales : Ces données représentent des catégories qui ont un ordre ou un classement spécifique. ● Exemples : Le niveau d'éducation, la satisfaction des clients,
+
+   Pour analyser ces données, on peut : ● Calculer des fréquences et des proportions, et créer des visualisations de données comme : ○ Des graphiques en barres, ○ Des diagrammes     circulaires (camemberts), ○ Des histogrammes.
+
+   On utilise des bibliothèques Python telles que pandas, matplotlib et seaborn pour manipuler et visualiser ces données.
  
 
 
 
-          
+ # Mesures de tendance centrale :
+
+   Les mesures de tendance centrale permettent de décrire et résumer les données
+   Les trois principales mesures sont : la moyenne, la médiane, et le mode.
+
+   1. Moyenne (Mean) :
+          Moyenne= Somme de toutes les valeurs / Nombre total de valeurs
+   2. Médiane (Median) : La médiane est la valeur du milieu lorsque les données sont triées dans un ordre croissant ou décroissant
+          Étapes pour calculer la médiane :
+              --> Trier les données en ordre croissant.
+              --> Si le nombre de valeurs est impair, la médiane est la valeur du milieu.
+              --> Si le nombre de valeurs est pair, la médiane est la moyenne des deux valeurs centrales.
+
+   3. Mode (Mode) :
+         c'est la valeur qui se répète le plus souvent
+
+
+   Mesures de tendance centrale en python :
+
+          moyenne = df["SALARY"].mean();
+          mediane = df["SALARY"].median();
+          mode = df["SALARY"].mode(); 
+​	
+       
 
 
 
