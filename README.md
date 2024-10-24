@@ -458,6 +458,13 @@ MyParser()
    instalation : pip install numpy
    import : import numpy as np ;
 
+   // Random Numpy
+
+   np.random.seed(10)  # Fixe la graine
+   random_numbers = np.random.rand(5)  # Génère 5 nombres aléatoires entre 0 et 1
+   print(random_numbers)  # Affiche les nombres aléatoires générés
+
+
 
  # Matplotlib :
    Matplotlib est une bibliothèque très flexible et puissante pour la visualisation de données. Que vous souhaitiez simplement tracer des courbes ou créer des visualisations plus    complexes
@@ -482,7 +489,9 @@ MyParser()
      k-mean clustering :  algorithme qui regroupe des données similaires en clusters
      import :   from sklearn.cluster import KMeans
 
-# sklearn.preprocessing : 
+ # sklearn.preprocessing :
+
+    
      
 
 
