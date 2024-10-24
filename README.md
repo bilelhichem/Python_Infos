@@ -459,6 +459,33 @@ MyParser()
    import : import numpy as np ;
 
 
+ # Matplotlib :
+   Matplotlib est une bibliothèque très flexible et puissante pour la visualisation de données. Que vous souhaitiez simplement tracer des courbes ou créer des visualisations plus    complexes
+
+   instalation : pip install Matplotlib
+   import : import matplotlib.pyplot as plt ;
+
+    import matplotlib.pyplot as plt
+
+      x = [0, 1, 2, 3, 4]
+      y = [0, 1, 4, 9, 16]
+
+      plt.plot(x, y)
+      plt.xlabel('x')
+      plt.ylabel('y')
+      plt.title('Graphique en courbes simple')
+      plt.show()
+
+
+ # Scikit-learn :
+
+     k-mean clustering :  algorithme qui regroupe des données similaires en clusters
+     import :   from sklearn.cluster import KMeans
+
+# sklearn.preprocessing : 
+     
+
+
   
 
 
