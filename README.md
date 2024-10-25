@@ -489,9 +489,16 @@ MyParser()
      k-mean clustering :  algorithme qui regroupe des données similaires en clusters
      import :   from sklearn.cluster import KMeans
 
- # sklearn.preprocessing :
+ # sklearn  :
+   scikit-learn (ou sklearn) est une bibliothèque très puissante et populaire en Python pour le machine learning et l’analyse des données. Elle propose une large gamme d'outils      pour des tâches de modélisation, de prétraitement, et d'évaluation.
 
-    
+   * La modélisation consiste à créer un modèle mathématique ou statistique qui représente une relation ou un phénomène observé dans les données
+   * Le prétraitement est l'étape qui consiste à préparer les données avant leur utilisation dans un modèle. Cela peut inclure des tâches comme :
+         Nettoyage des données : supprimer ou corriger les données manquantes, erronées ou dupliquées.
+         Transformation des données : normaliser ou standardiser les valeurs pour les rendre comparables.
+         Sélection de caractéristiques : choisir les variables les plus pertinentes pour le modèle afin d'améliorer sa performance.
+
+   * L’évaluation nous permet de savoir si le modèle est efficace et fiable pour faire des prédictions.  
      
 
 
