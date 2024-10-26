@@ -537,11 +537,45 @@ MyParser()
   
 ```python 
 
+   # Preprocessing using min max scaler :
 
-  
+      scaler = MinMaxScaler()
+      scaler.fit(df[['age']]) // calcule les valeurs minimales et maximales de la colonne 'age'
+      df['Nvage'] = scaler.transform(df[['age']]) // utilise ces valeurs pour normaliser les données de la colonne 'age' entre 0 et 1, en stockant le résultat dans une                  nouvelle colonne Nvage.
+
+
+```
+   <img src="https://github.com/user-attachments/assets/0a9be18c-fcdc-48e0-b1e7-8de489787681" alt="KMeans Clustering Example" width="100%" height="400" >
+
+
+```python 
+
+   # Elbow Plot (ou "méthode du coude")  :  est un outil utilisé en clustering pour déterminer le nombre optimal de clusters (K) à utiliser dans un algorithme de K-means
+
+    sse = [] // une liste pour stocker le Sum of Squared Errors pour chaque valeur de K.
+    k_rng = range(1, 10)  # Plage de valeurs de K de 1 à 9
+      for k in k_rng:
+          km = KMeans(n_clusters=k)  # Création du modèle KMeans avec k clusters
+          km.fit(df[['age', 'trestbps']])  # Entraînement du modèle sur les colonnes Age et Income
+          sse.append(km.inertia_)  # Stockage de l'inertie (SSE) pour chaque valeur de K
+
+
+   // Tracé de l'Elbow Plot :
+      plt.xlabel('K')
+      plt.ylabel('Sum of squared error')
+      plt.plot(k_rng, sse);
+
+   
+
+
+```
+  <img src="https://github.com/user-attachments/assets/d42b25e1-d971-46bb-a2db-d1512f515f75" alt="KMeans Clustering Example" width="100%" height="400" >  
     
   
+```pytohn
 
+  Remarque :  Le bon choix de K est là où la courbe forme un coude
+ 
 
   
      
