@@ -477,7 +477,7 @@ MyParser()
       x = [0, 1, 2, 3, 4]
       y = [0, 1, 4, 9, 16]
 
-      plt.plot(x, y)
+      plt.plot(x, y) ou plt.scatter(x,y)
       plt.xlabel('x')
       plt.ylabel('y')
       plt.title('Graphique en courbes simple')
@@ -498,7 +498,51 @@ MyParser()
          Transformation des données : normaliser ou standardiser les valeurs pour les rendre comparables.
          Sélection de caractéristiques : choisir les variables les plus pertinentes pour le modèle afin d'améliorer sa performance.
 
-   * L’évaluation nous permet de savoir si le modèle est efficace et fiable pour faire des prédictions.  
+   * L’évaluation nous permet de savoir si le modèle est efficace et fiable pour faire des prédictions.
+
+
+  # Kmean :
+
+    KMeans est un algorithme de clustering non supervisé qui regroupe les données en un certain nombre de clusters
+
+      Initialisation : L'algorithme choisit un certain nombre de centroids (points centraux) de manière aléatoire. Chaque centroid représente le centre d'un cluster.
+      Attribution des points aux clusters : Chaque point de données est attribué au cluster dont le centroid est le plus proche, basé sur une mesure de distance (généralement la                                              distance euclidienne).
+      Mise à jour des centroids : Une fois que tous les points ont été attribués, les centroids sont recalculés en prenant la moyenne des points dans chaque cluster.
+      Répétition : Les étapes 2 et 3 sont répétées jusqu'à ce que les centroids ne changent plus de manière significative, ce qui signifie que les clusters se sont stabilisés
+
+      from sklearn.cluster import KMeans;
+
+      km = KMeans(n_clusters=3); // vous voulez diviser vos données en 3 clusters
+      y_predicted = km.fit_predict(df[[ 'age', 'trestbps']]);   // entraîne l'algorithme KMeans sur les données fournies  et Cela signifie que l'algorithme va trouver les
+                    clusters basés sur les données d'entrée et Après l'entraînement, la méthode predict retourne les labels des clusters pour chaque point de données
+
+
+```
+   <img src="https://github.com/user-attachments/assets/90bfd157-cd7c-4ff8-8c3c-7c7cb5d5829a" alt="KMeans Clustering Example" width="100%" height="400" >
+
+  <img src="https://github.com/user-attachments/assets/5d4dc8af-1c6c-4ff3-97a1-d7f235efd3fa" alt="KMeans Clustering Example" width="100%" height="400" >
+
+
+```python
+
+
+   Si l'on examine plusieurs cas dans le graphique, on peut constater qu'il y a des erreurs dans la répartition des données dans les clusters, car nous n'avons pas effectué de       prétraitement.
+
+   # Example :
+
+
+
+```
+  <img src="https://github.com/user-attachments/assets/ea551839-76fb-4ef1-8e98-f0a33dff4bc1" alt="KMeans Clustering Example" width="100%" height="400" >
+```python 
+
+
+  
+    
+  
+
+
+  
      
 
 
